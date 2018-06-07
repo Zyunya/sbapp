@@ -1,0 +1,4 @@
+#if not ignores try to clear git cache 'git rm -r --cached node_modules'
+
+node_modules/
+

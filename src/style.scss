@@ -1,0 +1,25 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import '~font-awesome/css/font-awesome.css';
+
+
+body,html{
+	margin:0;
+}
+
+.brdr{
+	border:1px solid red;
+}
+
+.container{
+	width:850px;
+	max-width:100%;
+}
+
+
+.mx-auto{
+	padding:0;
+}
+
+.horflexer{
+	flex:1;
+}

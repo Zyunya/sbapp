@@ -1,0 +1,30 @@
+{
+	"name": "API SB",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"engineStrict": true,
+	"engines": {
+		"node": "8.9.4",
+		"npm": "5.6.0"
+	},
+	"scripts": {
+		"startapidevwin" : "node app.js",
+		"startapidev": "NODE_ENV=dev nodemon app.js",
+		"startapiprod": "NODE_ENV=prod nodemon app.js",
+		"test": "NODE_ENV=dev mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.2",
+		"csv-parser": "^2.1.0",
+		"csv-writer": "^1.2.0",
+		"express": "^4.16.2"
+	},
+	"devDependencies": {
+		"chai": "^3.2.0",
+		"chai-http": "^1.0.0"
+	}
+}
